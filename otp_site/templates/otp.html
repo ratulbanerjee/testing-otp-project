@@ -1,0 +1,17 @@
+<body>
+
+    <form action="/otp_generation/" method="post">
+       {% csrf_token %}
+      otp generation<br><br>	
+      username:<br>
+      <input type="text" name="username" ><br>
+      <br>
+      phone number<br>
+      <input type="text" name="mobile" ><br>
+      <br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+
+</body>

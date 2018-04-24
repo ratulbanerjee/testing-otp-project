@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <form action="/validation/" method="post">
+       {% csrf_token %}
+
+      username:<br>
+      <input type="text" name="username" ><br>
+      <br>
+      enter the otp<br>
+      <input type="text" name="otp" ><br>
+      <br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+
+
+</body>
+</html>
